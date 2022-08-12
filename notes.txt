@@ -1,0 +1,9 @@
+There are multiple ways to define objects but in most cases, 
+it is best to use the object literal syntax.
+
+- There are two ways to get information out of an object
+    * dot notation (myObject.property) // 'Value!'
+    * bracket notation myObject["obnoxious property"]
+
+    Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, myObject."obnoxious property" won’t work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation
+
