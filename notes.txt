@@ -7,3 +7,8 @@ it is best to use the object literal syntax.
 
     Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, myObject."obnoxious property" won’t work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation
 
+    One of the simplest ways you can begin to organize your code is by simply grouping things into objects.
+
+-- OBJECT CONSTRUCTORS --
+
+When you have a specific type of object that you need to duplicate, like our player, or inventory systems, a better way to create them is using and object constructor
